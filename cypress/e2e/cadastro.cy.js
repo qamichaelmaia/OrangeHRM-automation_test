@@ -1,6 +1,6 @@
 const { generateUserData } = require('../support/generateData');
 
-describe("Cadastro Test", () => {
+describe("Register Test", () => {
     beforeEach(() => { cy.visit("/web/index.php/auth/login"); }); // Acessa a página de login antes de cada teste
 
     it("should add collaborator successfully", () => {
